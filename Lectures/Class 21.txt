@@ -1,0 +1,6 @@
+LECTURE 39:
+
+ - ROLE OF PRIMARY & SECONDARY CONSTRUCTOR IN INHERITENCE:
+ 
+ * When we create a variable in class parenthesis "()",it's called 
+	"Default Constructor".

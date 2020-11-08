@@ -1,0 +1,29 @@
+LECTURE 37:
+
+	- INHERITANCE
+	
+		By default classes are:
+		 * public 
+		 * final
+		 
+	 For Inheritance you need to make a class 'open'
+	 
+ LECTURE 38:
+	 
+	 CONCEPT OF OVERIDING:
+		
+		To over-ride any varialble value or function of "Parent Class"
+		inside "Child Class" in Kotlin we use "Override" keyword.
+
+Example:
+		// Parent Class
+			open class greet{
+		// Use "open" keyword here before overriding it in child class
+				open var say = "Hello Welcome!"
+			}
+			
+		// Child Class
+			class farewell{
+				// Over-ride "say" variable with new value
+				override var say = "Goodbye!"
+			}

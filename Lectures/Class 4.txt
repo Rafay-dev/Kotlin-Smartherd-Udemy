@@ -1,0 +1,25 @@
+Functions:
+
+* Basic Syntax:
+	
+	var name: String
+	
+	name = "Steve"
+	
+	display(name)
+	
+fun display(name: String){
+
+		print(name)
+
+	}
+	
+	
+* Creating Class Object:
+	
+	* We don't need to use "new" keyword to create object in "Kotlin"
+	
+	var person = Person()
+	
+* Concatenation:
+	We can concatenate "String" with "Variable" by using "+" sign

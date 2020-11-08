@@ -1,0 +1,32 @@
+LECTURE 36-2:
+
+
+	TYPES OF INHERITANCE:
+		
+		1) Single Inheritance:
+		Example:
+			
+			* Class "B" inherit from class "A"
+			
+		
+		2) MultiLevel Inheritance:
+		Example:
+			
+			* Class "C" inherit from class "B" & class "B" inherit from
+			  class "A"
+			
+		
+		3) Hierarchial Inheritance:
+		Example:
+			
+			* Class "B" & class "C" inherits from class "A"
+		
+		
+		* All class "A" are inherit from "ANY" class which is a "Super Class" in "Kotlin"
+			
+			
+	ANY CLASS:
+		"Any" class contains fucntions such as:
+			- equals(): Boolean
+			- hashCOde(): Int
+			- toString(): String

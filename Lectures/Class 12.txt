@@ -1,0 +1,35 @@
+LECTURE 23:
+
+LOOP CONTROL STATMENTS:
+
+	* Break Statement
+	* Continue Statement
+	* Return Statement
+
+
+	- Break and Continue Labels:
+		Any expression in Kotlin may be marked with a label. Labels have the form of an identifier followed by the @ sign, for example: abc@, fooBar@ are valid labels (see the grammar). To label an expression, we just put a label in front of it
+		
+		EXAMPLE:
+		
+		myLoop@ for (i in 1..100) {
+			for (j in 1..100) {
+				if (...) break@myLoop
+			}
+		}
+		
+		
+	- Continue Statement:
+		This statement can be used in "Loop" to skip the part of the condition then continue the loop.
+		
+		EXAMPLE:
+		
+		// Print 1 to 5 and skip 4
+		
+		for (1..5){
+			if(1==4){
+				continue // 4 will be skip
+			}
+		}
+	
+	

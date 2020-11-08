@@ -1,0 +1,16 @@
+LECTURE 19:
+
+- LOOPS:
+
+1) For Loop
+2) While Loop
+3) DO While Loop
+
+
+Loop Structure:
+	
+	* Counter Variable
+	* Condition Check
+	* Increment/Decrement the counter
+	
+	

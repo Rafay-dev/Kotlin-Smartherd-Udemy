@@ -1,0 +1,9 @@
+LECTURE 53:
+
+ - MAP:
+	A collection that holds pairs of objects (keys and values) and supports efficiently retrieving the value corresponding to each key. Map keys are unique; the map holds only one value for each key. Methods in this interface support only read-only access to the map; read-write access is supported through the MutableMap interface.
+	
+	Entry:
+	 Represents a key/value pair held by a Map
+	 
+	 interface Entry<out K, out V>	

@@ -1,0 +1,56 @@
+LECTURE 16:
+
+- RANGES:
+
+	Example:
+	
+Ascending Order:
+		
+* ".."
+	This is known as "Double Dot Operator". It is used to print "Range" in ascending order
+	
+	Example:
+	
+	val r1 = 1..5
+	
+	// This range contains the number between 1 to 5
+	
+	
+Descending Order:
+	
+* "downTo"
+	It is used to print "Range" in ascending order
+	
+	Example:
+	
+	val r2 = 5 downTo 1
+	
+	// This range contains the number between 5 to 1
+	
+	
+Skipping Values:
+
+* "step"
+	It is used to skip the alternate value
+	
+	Example:
+
+	val r3 = 5 downTo 1 step 2
+	
+	// This range contain values 5, 3, 1
+
+
+Search In Range:
+	
+* "in"
+	It is used to search in "Range"
+	
+	Example:
+	
+	val r4 = 'a'..'z'
+	
+	// This range contains the all the alphabets from "a to z"
+	
+	val isPresent = 'c' in r4
+	
+	// It will search letter 'c' in "a to z" range

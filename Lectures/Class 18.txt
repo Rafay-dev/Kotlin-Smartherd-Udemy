@@ -1,0 +1,53 @@
+LECTURE 36:
+
+	- INHERITANCE
+	
+		Inheritance in Kotlin is a mechanism in which one object 
+		acquires all the properties from it's Parent class object
+	
+		ADVANTAGES:
+			- For code resuability
+			- For method overriding
+	
+		By default Classes are:
+			- public
+			- final
+			
+		By default you cannot "inherit" from a particualr class to derived class  or the sup-class.
+		
+		In Kotlin "open" keyword is used to perform "Inheritance"
+		
+		Example:
+			
+			Class Dog{					Class Cat{		
+			
+			var color: String			var color: String
+			var breed: String			var age: String
+			
+				fun bark()				fun meow()
+				fun fun eat()			fun eat()
+			}							}	
+			
+		* Class "cat" & "dog" has same variable named "color"
+		and same function named "eat()"
+		
+		* So we create another class of "Animal" whcih has variable name "color" & function name "eat()"
+		
+		open class Animal{
+			var color: String
+			
+			fun eat()
+		}
+		
+		* Now we "Inherit" all properties of "Animal" to "dog" & "cat" class and "Inherit" variable "color" and function "eat()" from there
+
+			
+			Class Dog : Animal(){		Class Cat : Animal(){		
+			
+			var breed: String			var age: String
+			fun bark()					fun meow()
+			}							}	
+			
+		* The "dog" & "cat" class will be called "Sub Class", "Child Class" or "Derived Class"
+		
+		* The "Animal" class will be called "Super Class" or "Base Class" or "Parent Class"

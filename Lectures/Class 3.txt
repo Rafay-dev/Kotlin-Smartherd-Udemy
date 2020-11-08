@@ -1,0 +1,23 @@
+
+NO NEED OF CLASS:
+
+In "Kotlin" we don't required the usage of class explicitly to make our program run. "Kotlin" code can run from "main" function without creating any class.
+
+Because "Kotlin" create a "Class" internally during the runtime.
+
+* println():
+	It is used to print a new line
+	
+* Declaring Variable:
+	
+	Basic Syntax:
+		var = changable
+		val = unchangable
+	
+* Declaring DataType:
+	
+	var myString : String
+	var myInt : Int
+	var myFloat : Float
+	var myDouble : Double
+	var myBool : Bool

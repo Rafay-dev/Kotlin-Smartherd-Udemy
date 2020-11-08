@@ -1,0 +1,20 @@
+LECTURE 25:
+
+- FUNCTIONS
+
+	Basic Syntax:
+		
+		fun findArea(length: Int, breadth: Int):Int{
+		
+			// Method Body: Your Code Here
+			
+			return length * breadth
+			
+		}
+		
+* "Unit" is used as void in Kotlin
+	
+	Example:
+		fun hello(): Unit{
+			// code
+		}

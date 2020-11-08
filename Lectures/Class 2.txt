@@ -1,0 +1,12 @@
+1- Start New Project
+2- Go to Project Name -> app -> src -> New File ".kt".
+
+
+BASIC SYNTAX:
+	
+	fun main(args: Array<String>){
+	
+		print("Hello World")
+	}
+	
+* Semi column is not required in "Kotlin".

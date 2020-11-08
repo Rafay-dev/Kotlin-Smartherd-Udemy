@@ -1,0 +1,30 @@
+LECTURE 13:
+
+Data Types:
+	
+	Basic Syntax:
+	
+	// Declaring Integer
+	var age : Int = 10
+	
+	OR
+	
+	var age = 10 // It becomes Integer automatically
+	
+* Everything is considered as "Object" in "Kotlin"
+
+	
+- DATA TYPES:
+	
+		
+	- Boolean	(Size = 1bit)		(Example = true, false)
+	- Byte		(Size = 8bit)		(Example = -127 to 128)
+	- Char		(Size = 16bit)		(Example = 'a', '\n', '2', '\101')
+	- Short		(Size = 16bit)		(Example = none)
+	- Int		(Size = 32bit)		(Example = -2, -1, 0, 1, 2)
+	- Long		(Size = 64bit)		(Example = -2L, -1L, 0, 1L, 2L)
+	- Float		(Size = 32bit)		(Example = 3.4f OR 3.7F)
+	- Double	(Size = 64bit)		(Example = 3.4d OR 3.7D)
+	
+	
+* In "Kotlin" we don't have any default value for these data types. All variables must be initialized

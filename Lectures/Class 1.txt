@@ -1,0 +1,46 @@
+Kotlin Highlights
+
+	-> Kotlin is now Official Android Language
+	-> Developed by JetBrains
+	-> Android Studio is built on top of Intellij IDEA
+	
+	
+	Kotlin is Open Source project primarily under Apache 2
+	-> Which again promotes developer ecosystem to be united and more freely
+	
+
+Is It Meant To Replace Java?
+	
+	NO
+	
+	- Kotlin is just more flexible Java
+	- It is a more powerful language
+	- The Android apps can be built on Kotlin along with using Java and C++ alongside.
+	
+
+Why Kotlin?
+	
+	Kotlin is more powerful Java
+	-> Expressive
+	-> Concise
+	
+	Safety Features
+	-> Immutable
+	-> Nullability: No more null pointer exceptions 
+	- Makes your apps more healthy and safe
+	- Ensures more performance
+	
+
+Some Other Features of Kotlin:
+	
+	- It's a JVM language
+	- It's syntax of more expressive and concise
+	- It supports:
+		-> High-Order functions 
+		-> Lambda expression
+		-> String Template
+		-> and so on...
+
+	- Kotlin and Java are Interoperable
+		-> They both can be used together in the same project
+		-> You can call into Java language from Kotlin and you can call into Kotlin from the Java language

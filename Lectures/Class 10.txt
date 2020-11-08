@@ -1,0 +1,7 @@
+LECTURE 17:
+
+CONTROL STATEMENTS
+- IF as Expression
+- WHEN as Expression
+
+In Kotlin "when" expression is the replacement of "Switch" statement 

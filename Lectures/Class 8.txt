@@ -1,0 +1,25 @@
+LECTURE 15:
+	
+	String Templates: Interpolation
+	
+	Example:
+	
+	val name : String
+	name = Sam
+	
+	// String Concatenation
+	
+	println("Nice to meet you " + name) 
+	
+	// String Interpolation
+	
+	println("Nice to meet you $name")
+	
+	// OR
+	
+	println("The length of name string is ${name.length}")
+	
+	// Curly Braces are used to apply the interpolation on whole condition, otherwise it won't work.
+
+		
+	

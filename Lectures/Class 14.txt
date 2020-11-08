@@ -1,0 +1,18 @@
+LECTURE 26
+
+- FUNCTIONS AS EXPRESSIONS
+
+	Example:
+	
+		fun maxNumber(a: Int, b: Int):Int = 
+		
+		If( a > b ){
+		
+			println("a is greater")
+			
+		}
+		else{
+			
+			println("b is greater")
+		
+		}

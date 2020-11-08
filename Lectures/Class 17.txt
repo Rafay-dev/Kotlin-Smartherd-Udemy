@@ -1,0 +1,31 @@
+LECTURE 34:
+
+ - Object Oriented Programming
+ 
+ 1-Class
+		Defination:
+			By defination of OOP, a class is a blueprint of runtime entity and object is its state, which include both its behaviour and state. 
+				
+			In Kotlin, class declaration consists of a class header and a class body surrounded by curly braces, similar to Java.
+			
+		Syntax:
+			Class myClass{
+				// class body
+			}
+			
+		Class Constructor:
+			Class myClass(name:String){
+				// name is a primary constructor
+				
+				// init Block
+					// Your class initializer code (This will run first)
+			}
+			
+TOPICS:
+		1) Property aka Field Variables in Java
+		2) Primary Constructor
+			* init Block
+			* Primary Constructor with Property
+			* Primary Constructor with Just Parameters
+			* Secondary Constructor
+		
